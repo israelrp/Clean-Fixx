@@ -1,0 +1,168 @@
+body{
+  font-family:'Myriad W01 Regular';
+}
+
+
+header{
+  background-color: transparent;
+  background-image: url('../img/header-color.png');
+  background-repeat:repeat;
+  height:60px;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.52);
+  -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.52);
+  box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.52);
+}
+
+.logo-header{
+  background-image: url('../img/logo.png');
+  background-color: transparent;
+  width:97px;
+  height: 54px;
+}
+
+.navbar-brand{
+  padding:2px 15px;
+}
+
+.navbar-nav a{
+  color: #E90D8B;
+}
+
+.boton-comprar{
+  text-decoration: none;
+  border:none;
+  background-color: transparent;
+  background-image: url('../img/boton-comprar.png');
+  width: 129px;
+  height: 35px !important;
+  color: white !important;
+  text-align: center;
+  top: 14px;
+  vertical-align: middle;
+  display: table-cell !important;
+  padding: 0 !important;
+}
+
+.pink{
+  color:#E90D8B;
+}
+
+.titulo-caracteristica-principal{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 25px;
+  font-family: 'Leckerli One';
+}
+
+.parrafo-caracteristica{
+  font-size: 15px;
+  color: #333333;
+  width: 100%;
+  text-align: left;
+  margin-top:25px;
+}
+
+.ventajas{
+  background-color: #0088CE;
+  margin-top: 80px;
+}
+
+.ventajas .titulo{
+  color:white;
+  font-size: 35px;
+  font-family: 'Leckerli One';
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ventajas .icono{
+  height: 90px;
+  text-align: center;
+  width:100%;
+}
+
+.ventajas p{
+  color:white;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.servicios{
+  background-color: #E90D8B;
+  margin-top: 0;
+}
+
+.servicios .titulo{
+  color:white;
+  font-size: 35px;
+  font-family: 'Leckerli One';
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.servicios .icono{
+  height: 90px;
+  text-align: center;
+  width:100%;
+}
+
+.servicios p{
+  color:white;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.caracteristicas{
+  background-color: #fff;
+  margin-top: 0;
+}
+
+.caracteristicas .titulo{
+  color:#4D4D4D;
+  font-size: 35px;
+  font-family: 'Leckerli One';
+  padding-bottom: 20px;
+}
+
+.caracteristicas .recuadro{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 60px;
+  border: 3px solid #B3B3B3;
+  background-color: #E6E6E6;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.caracteristicas .recuadro a{
+  text-decoration: none;
+  border:none;
+  background-color: transparent;
+  background-image: url('../img/boton-comprar-large.png');
+  width: 208px;
+  height: 36px !important;
+  color: white !important;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell !important;
+  padding: 0 !important;
+}
+
+.caracteristicas .recuadro ul li{
+  color: #4D4D4D;
+  font-size: 15px;
+}
+
+footer{
+  background-color: #999999;
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+        float:left;
+        margin: 0 auto;
+    }
+}
