@@ -142,7 +142,7 @@ header{
   float: left;
 }
 
-.caracteristicas .recuadro a{
+.caracteristicas .recuadro a, .content-programar a{
   text-decoration: none;
   border:none;
   background-color: transparent;
@@ -156,7 +156,7 @@ header{
   padding: 0 !important;
 }
 
-.caracteristicas .recuadro .content-programar{
+.content-programar{
   width:208px;
   margin: 0 auto;
 }
@@ -235,6 +235,23 @@ footer .content-formulario .jotform-form{
     border:3px solid #B3B3B3;
     width: 100%;
     color:#4D4D4D;
+}
+
+.contenedor-tema ul,.contenedor-tema p{
+  padding: 10px 40;
+  font-size: 20px;
+  font-family:'Myriad W01 Regular';
+  text-align: justify;
+}
+
+.contenedor-tema .titulo-icon{
+  padding: 20px 25px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.contenedor-tema .titulo-icon label{
+  padding-left: 10px;
 }
 
 .contenedor-tema .titulo{
