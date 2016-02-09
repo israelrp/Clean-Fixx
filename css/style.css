@@ -1,3 +1,7 @@
+html, body{
+  width: 100%;
+}
+
 body, label, p, span{
   font-family:'Myriad W01 Regular';
 }
@@ -27,6 +31,7 @@ header{
 .navbar-nav a{
   color: #E90D8B;
 }
+
 
 .boton-comprar{
   text-decoration: none;
@@ -175,6 +180,8 @@ header{
 footer{
   background-color: #999999 !important;
   color:white !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 footer p{
@@ -278,6 +285,71 @@ footer .content-formulario .jotform-form{
   font-family:'Myriad W01 Bd';
   font-size: 24px;
   color:#4D4D4D;
+}
+
+#content-contratar{
+  background-color: #0088CE;
+  background-image: url('img/Fondo-estrellas.png');
+  background-position: center;
+  margin-top:60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 100px;
+  color:white;
+  font-family:'Myriad W01 Regular';
+  font-size: 16px;
+}
+
+#content-contratar select,#content-contratar input{
+  color: black;
+}
+
+#content-contratar label{
+  display: block;
+  margin-bottom: 15px;
+  font-family:'Myriad W01 Regular';
+  color:white;
+  font-size: 19px;
+}
+
+#content-contratar .row{
+  margin-bottom: 35px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#content-home .row{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+#content-contratar .col{
+  text-align: center;
+}
+
+#btnSolicitar{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    background-image: url('../img/boton-comprar-large.png');
+    width: 208px;
+    height: 36px !important;
+    color: white !important;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell !important;
+    padding: 0 !important;
+
+}
+
+#btnCP{
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  background-image: url('../img/boton-siguiente.png');
+  width: 42px;
+  height: 36px !important;
+  color: white !important;
 }
 
 @media (min-width: 768px){
